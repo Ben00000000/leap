@@ -194,6 +194,7 @@ function gameOver() {
     restartButton.on('pointerdown', function () {
     playerScore = 0;
     isGameOver = false;
+        playerHP = 100;
         this.scene.restart(); // Restart the current scene
     }, this);
 }
